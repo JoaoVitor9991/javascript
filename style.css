@@ -11,3 +11,9 @@
     position: absolute;
     z-index: 100;
 }
+
+
+
+.ModalOpen {
+    display: flex;
+}
