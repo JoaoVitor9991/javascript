@@ -11,5 +11,5 @@ let Modal = document.getElementById('Modal')
 
 
 BtnOpenModal.addEventListener('click', () =>{
-    Modal.classList.add('ModalOpen')
+    Modal.classList.toggle('ModalOpen')
 })
