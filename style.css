@@ -1,0 +1,13 @@
+.modal{
+    width: 50%;
+    z-index: 100;
+    justify-self: center;
+    align-self: center;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+}
