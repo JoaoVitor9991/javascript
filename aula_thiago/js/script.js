@@ -12,7 +12,7 @@ var botao_click = document.getElementById("btn_click");
 function mudacor(){
     //alert("Muda cor");
     var div = document.querySelector("div_texto");
-    var div2 = document.getElementsByClassName("div_texto");
+    //var div2 = document.getElementsByClassName("div_texto");
 }
 
 function postar(){
