@@ -18,10 +18,14 @@ console.log(typeof(contador) );
 
 botao_mais.addEventListener('click', function(){
     contador++;
+    console.log(contador);
+    contador.textContent = contador;
 })
 
 botao_menos.addEventListener('click', function(){
     contador--;
+    console.log(contador);
+    contador.textContent = contador;
 })
 
 
