@@ -1,5 +1,8 @@
-alert("Olá mundo!");
-alert("Bem-Vindo ao projeto JS");
+
 
 console.log("Mensagem no console");
 //essa função é similar ao print no python
+
+var btn_color = document.getElementById("btn_color");
+
+console.log(btn_color);
