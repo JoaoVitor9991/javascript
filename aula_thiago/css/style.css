@@ -2,6 +2,14 @@
     display: flex;
     align-items: center;
     width: 400px;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 200px;
+}
+
+.div_texto{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
+    width: 400px;
 }
