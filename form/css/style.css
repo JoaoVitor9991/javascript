@@ -1,0 +1,9 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #c1c1c1;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
