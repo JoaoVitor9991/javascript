@@ -9,20 +9,12 @@ var botao_menos = document.getElementById("btn_less");
 var botao_click = document.getElementById("btn_click");
 
 
-var contador = document.querySelector("#texto").textContent;
-
-
-
-
-
-
-
-
+var contador = parseInt(document.querySelector("#texto").textContent);
 
 
 
 console.log(contador);
-
+console.log(typeof(contador) );
 
 
 
