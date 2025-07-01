@@ -3,7 +3,7 @@
     align-items: center;
     width: 400px;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: #8969fd;
     height: 200px;
 }
 
@@ -12,4 +12,11 @@
     align-items: center;
     justify-content: center;
     width: 400px;
+}
+
+.cabecalho{
+    width: 400px;
+    background-color: #3519e6;
+    height: 150px;
+    color: black;
 }
