@@ -8,11 +8,39 @@ var botao_mais = document.getElementById("btn_plus");
 var botao_menos = document.getElementById("btn_less");
 var botao_click = document.getElementById("btn_click");
 
+
 var contador = document.querySelector("#texto").textContent;
+
+
+
+
+
+
+
+
+
+
 
 console.log(contador);
 
+
+
+
+
+
+
+
+
+
 var header = document.querySelector(".cabecalho");
+
+
+
+
+
+
+
+
 
 header.addEventListener('mouseover',  function(){
     header.style.backgroundColor = 'black';
