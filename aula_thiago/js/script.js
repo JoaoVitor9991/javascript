@@ -16,6 +16,13 @@ var contador = parseInt(document.querySelector("#texto").textContent);
 console.log(contador);
 console.log(typeof(contador) );
 
+botao_mais.addEventListener('click', function(){
+    contador++;
+})
+
+botao_menos.addEventListener('click', function(){
+    contador--;
+})
 
 
 
