@@ -19,13 +19,13 @@ console.log(typeof(contador) );
 botao_mais.addEventListener('click', function(){
     contador++;
     console.log(contador);
-    document.querySelector("contador").textContent = contador;
+    document.querySelector("#texto").textContent = contador;
 })
 
 botao_menos.addEventListener('click', function(){
     contador--;
     console.log(contador);
-    document.querySelector("contador").textContent = contador;
+    document.querySelector("#texto").textContent = contador;
 })
 
 
