@@ -12,3 +12,11 @@ form{
     padding-bottom: 30px;
 }
 
+.result {
+    width: 300px;
+}
+
+.bot{
+    width: 50px;
+    padding: 10px;
+}
