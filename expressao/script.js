@@ -24,4 +24,6 @@
 
 //document.write(cpf.test("957;488.555-52"))//
 
-/^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}$/;
+let email = /^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}$/;
+
+document.write(email.test("joaodevestagio@gmail.com"));
