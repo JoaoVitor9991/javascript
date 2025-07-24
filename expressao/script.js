@@ -24,6 +24,34 @@
 
 //document.write(cpf.test("957;488.555-52"))//
 
-let email = /^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}$/;
+//let email = /^[a-zA-Z0-9._]+@[a-zA-Z0-9._]+\.[a-zA-Z]{2,}$/;
 
-document.write(email.test("joaodevestagio@gmail.com"));
+//document.write(email.test("joaodevestagio@gmail.com"));
+
+
+const inputs = document.querySelectorAll('.required');
+const spans = document.querySelectorAll('.span-required');
+
+const emailRegex = /^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+
+function setError(index) {
+    spans[index].style.display = 'block';
+}
+
+
+function removeError(index) {
+    spans[index].style.display = 'none';
+}
+
+
+function emailValidate() {
+    
+    if (emailRegex.test(inputs[0].value)) {
+        console.log("Email Válido");
+        removeError(0);
+    } else {
+        console.log("Email Inválido");
+        setError(0);
+    }
+}

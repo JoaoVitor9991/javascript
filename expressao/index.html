@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js">teste</script>
+    <style>
+        .span-required {
+            color: #e63636;
+            display: none; /* Começa escondido */
+        }
+    </style>
 </head>
 <body>
     <div>
-        <input type="text" placeholder="Digite seu email" class="input required" oninput="emailValidate()">
+        <input type="text" placeholder="Digite seu email" class="required" oninput="emailValidate()">
         <span class="span-required">O email deve ter o padrão email@empresa.com.br</span>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
